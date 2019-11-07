@@ -1,0 +1,4 @@
+commerce_nochex_gateway.callback:
+  path: '/commerce-nochex/callback'
+  defaults:
+    _controller: '\Drupal\commerce_nochex_gateway\Controller\CallbackController::callback'

@@ -1,0 +1,5 @@
+services:
+  logger.channel.commerce_nochex_gateway:
+    parent: logger.channel_base
+    arguments:
+      - 'commerce_nochex_gateway'
