@@ -3,7 +3,7 @@ Nochex Module for DrupalCommerce
 
 Installation
 =====================
-To Install and Setup the Nochex module please follow our integration guide, which can be found <a href="#">here</a>
+To Install and Setup the Nochex module please follow our integration guide, which can be found <a href="https://ssl.nochex.com/Downloads/Shopping Cart Modules and Integration Guides/Drupal/DrupalCommerce/DrupalCommerce_Guide.pdf">here</a>
 
 Support
 =====================
