@@ -77,7 +77,7 @@ class RedirectCheckout extends OffsitePaymentGatewayBase
 	$header = "From: apc@nochex.com";
 
 	// Set parameters for the email
-	$to = 'james.lugton@nochex.com';
+	$to = 'example@youremail.com';
 	$url = "https://www.nochex.com/apcnet/apc.aspx";
 
 	// Curl code to post variables back
@@ -100,7 +100,7 @@ class RedirectCheckout extends OffsitePaymentGatewayBase
 	$debug .= "\r\nRESPONSE:\r\n$output";
 	 
 	//If statement
-	if (!strstr($output, "AUTHORISED")) {  // searches response to see if AUTHORISED is present if it isn’t a failure message is displayed
+	if (!strstr($output, "AUTHORISED")) {  // searches response to see if AUTHORISED is present if it isnâ€™t a failure message is displayed
 		$msg = "APC was not AUTHORISED.\r\n\r\n$debug";  // displays debug message
 	} 
 	else { 
